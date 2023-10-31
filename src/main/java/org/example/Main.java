@@ -11,7 +11,7 @@ public class Main {
 
         SubnetUtils subnetUtils = new SubnetUtils("51.38.24.0/24");
 
-        ReportPrinter reportPrinter = new ReportPrinter();
+        ReportCreator reportPrinter = new ReportCreator();
         try {
             reportPrinter.init("scan-report.txt");
             new IpSubnetScanner().scan(subnetUtils, 8, reportPrinter);

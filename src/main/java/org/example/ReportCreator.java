@@ -4,7 +4,7 @@ import java.io.FileWriter;
 
 import static java.lang.System.out;
 
-public class ReportPrinter {
+public class ReportCreator {
     private FileWriter fileWriter;
 
     public void init (String filename) throws Exception {
